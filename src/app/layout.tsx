@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(roboto.className, "flex flex-col min-h-screen text-slate-50" )}>
+      <body className={clsx(roboto.className, "flex flex-col items-center min-h-screen text-concretewhite" )}>
         <NavBar />
         <Header />
         {children}
