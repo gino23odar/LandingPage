@@ -2,7 +2,9 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div>NavBar</div>
+    <div className='flex justify-center w-full bg-concretewhite text-slate-950'>
+      NavBar
+    </div>
   )
 }
 
